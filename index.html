@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+    <link href='https://fonts.googleapis.com/css?family=Raleway:400,700' rel=
+    'stylesheet' type='text/css'>
+    <link href="css/reset.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+    <title>
+    </title>
+</head>
+
+<body>
+    <section class="setting-date">
+        <div class="container">
+            <h1>Zaplanuj swój dzień!</h1>
+
+
+            <div class="left-side">
+                <p>Kiedy?</p>
+
+
+                <form>
+                    <input id="set_date" min="2016-02-19" type="date"><br>
+
+                    <textarea id="plan" placeholder="Co planujesz zrobić?">
+                    </textarea><br>
+                    <a id="adding">Dodaj!</a>
+                </form>
+            </div>
+
+
+            <div class="right-side">
+                <div class="calendar-day" id="test">
+                    <div class="strip-line">
+                        <h4 id="year">
+                        </h4>
+                    </div>
+
+
+                    <div class="full-date">
+                        <h3 id="month">
+                        </h3>
+
+
+                        <h1 id="date">
+                        </h1>
+
+
+                        <h4 id="day">
+                        </h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="to-do-list">
+        <div class="container">
+            <h1 id="title">
+            </h1>
+
+
+            <ul id="list">
+            </ul>
+        </div>
+    </section>
+    <script src="js/jquery-2.1.4.min.js">
+    </script> 
+    <script src="js/script.js">
+    </script>
+</body>
+</html>
